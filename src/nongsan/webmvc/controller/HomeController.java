@@ -29,27 +29,27 @@ public class HomeController extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		List<Boardnew> boardnewList = boardnewService.getAll();
 		req.setAttribute("boardnewlist", boardnewList);
-		// Product Rau cu qua
+		// Product Rau củ quả
 		List<Product> product_raucu= productService.getProductById(1);
 		req.setAttribute("product_raucu", product_raucu);	
 		
-		// Product hat
+		// Product hạt
 		List<Product> product_hat= productService.getProductById(2);
 		req.setAttribute("product_hat", product_hat);	
 		
-		// Product trai cay
+		// Product trái cây
 		List<Product> product_traicay= productService.getProductById(3);
 		req.setAttribute("product_traicay", product_traicay);	
 		
-		// Product mat ong
+		// Product mật ong
 		List<Product> product_matong= productService.getProductById(4);
 		req.setAttribute("product_matong", product_matong);	
 		
-		// Product moi
+		// Product mới
 		List<Product> product_new= productService.getProductById(5);
 		req.setAttribute("product_new", product_new);	
 				
-		// Product ban chay
+		// Product bán chạy
 		List<Product> product_banchay= productService.getProductById(6);
 		req.setAttribute("product_banchay", product_banchay);	
 		
