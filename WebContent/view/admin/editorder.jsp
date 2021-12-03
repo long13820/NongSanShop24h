@@ -60,7 +60,7 @@
 	                    </select>
 	                  </div>
 	                </div>
-                  
+          
                     <div class="form-group">
 	                  <label for="input-2">Trạng thái</label>
 	                  <div>

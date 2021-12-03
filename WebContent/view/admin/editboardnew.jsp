@@ -13,7 +13,7 @@
                 <form action="${pageContext.request.contextPath}/admin/new/edit" method="post">
                  <div class="form-group">
                     <label for="input-1">ID</label>
-                    <input type="text" class="form-control" readonly id="input-1" placeholder="ID" value="${boardnew.id}" name="new-id">
+                    <input type="text" class="form-control"  readonly id="input-1" placeholder="ID" value="${boardnew.id}" name="new-id">
                   </div>
                   <div class="form-group">
                     <label for="input-2">Tên tin tức</label>
@@ -32,10 +32,10 @@
                   <div>
                     <select class="form-control valid" id="input-4" name="new-author"" >
                         <option>NULL</option>
-                        <option>Thịnh Dương</option>
-                        <option>Lê Thạch</option> 
-                        <option>Lan Ngọc</option>
-                        <option>Kim Vy</option>
+                        <option>Hoàng Long</option>
+                        <option>Văn Đức</option> 
+                        <option>Văn Hoàng</option>
+                        <option>Phương Thảo</option>
                     </select>
                   </div>
                   </div>
