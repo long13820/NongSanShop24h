@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@SuppressWarnings("serial")
+@SuppressWarnings({ "serial", "unused" })
 @WebServlet(urlPatterns = "/view/client/logout")
 public class LogoutController extends HttpServlet {
 	
@@ -22,7 +22,7 @@ public class LogoutController extends HttpServlet {
 		 if (session != null) {
 			 session.removeAttribute("username"); //remove session
 		 }
-		  resp.sendRedirect(req.getContextPath() + "/"); 
+		 resp.sendRedirect(req.getContextPath() + "/"); 
 	}
 
 }

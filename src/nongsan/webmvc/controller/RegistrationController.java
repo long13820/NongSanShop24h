@@ -45,7 +45,7 @@ public class RegistrationController extends HttpServlet {
 		RegisterDao register = new RegisterDao(connectDB.getConnect());
 		if (register.RegisterUser(user)) // On success, you can display a message to user on Home page
 		{
-			request.setAttribute("Message", "Bạn đã tạo tài khoàn thành công. Mời bạn đăng nhập <a href='/do-an-java/view/client/login'>tại đây!</a>");
+			request.setAttribute("Message", "Bạn đã tạo tài khoàn thành công. Mời bạn đăng nhập <a href='/NongSanShop24h/view/client/login'>tại đây!</a>");
 			RequestDispatcher rd = request.getRequestDispatcher("/view/client/register.jsp");
 			rd.forward(request, response);
 		} else {

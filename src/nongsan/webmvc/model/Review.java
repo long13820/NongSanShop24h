@@ -1,6 +1,6 @@
 package nongsan.webmvc.model;
 
-import java.util.Date;
+//import java.util.Date;
 
 public class Review {
 	private String id;

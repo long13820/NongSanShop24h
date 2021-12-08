@@ -20,7 +20,7 @@ import nongsan.webmvc.service.ProductService;
 import nongsan.webmvc.service.impl.CategoryServicesImpl;
 import nongsan.webmvc.service.impl.ProductServiceImpl;
 
-@SuppressWarnings("serial")
+@SuppressWarnings({ "serial", "unused" })
 @WebServlet(urlPatterns = "/view/client/product/search")
 public class ProductSeachByNameController extends HttpServlet {
 	

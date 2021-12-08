@@ -17,7 +17,7 @@ import java.util.List;
 
 import java.sql.ResultSet;
 import nongsan.webmvc.model.Catalog;
-import nongsan.webmvc.model.Product;
+//import nongsan.webmvc.model.Product;
 import nongsan.webmvc.dao.CategoryDao;
 import nongsan.webmvc.jdbc.connectDB;
 
